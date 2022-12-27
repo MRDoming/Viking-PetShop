@@ -8,11 +8,11 @@ Cuenta con una pagina de inicio, con un menu para navegar entre las paginas
 
 Y dos paginas de productos separados por caategorias: juguetes y farmacia
 
- ![inicio](https://raw.githubusercontent.com/MRDoming/Viking-PetShop/main/img/v-farmacia.png)
-
- ![inicio](https://raw.githubusercontent.com/MRDoming/Viking-PetShop/main/img/v-juguetes.png)
+ ![juguetes](https://raw.githubusercontent.com/MRDoming/Viking-PetShop/main/img/v-juguetes.png)
+ 
+  ![juguetes](https://raw.githubusercontent.com/MRDoming/Viking-PetShop/main/img/v-juguetess.png)
 
 Cuenta tambien con un carrito de compras que usa el local storage para guardar los productos.
 
- ![inicio](https://raw.githubusercontent.com/MRDoming/Viking-PetShop/main/img/v-carrito.png)
+ ![carrito](https://raw.githubusercontent.com/MRDoming/Viking-PetShop/main/img/v-carrito.png)
 
