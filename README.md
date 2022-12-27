@@ -6,7 +6,7 @@ Cuenta con una pagina de inicio, con un menu para navegar entre las paginas
 
  ![inicio](https://raw.githubusercontent.com/MRDoming/Viking-PetShop/main/img/v-inicio.png)
 
-Y dos paginas de productos separados por caategorias: juguetes y farmacia
+Y dos paginas de productos separados por caategorias: juguetes y farmacia, donde se pueden filtrar por precio y/o por palabra clave.
 
  ![juguetes](https://raw.githubusercontent.com/MRDoming/Viking-PetShop/main/img/v-juguetes.png)
  
