@@ -15,7 +15,16 @@ const app = Vue.createApp({
         }
     },
     created() {
-        fetch('https://apipetshop.herokuapp.com/api/articulos')
+
+        this.productos = data
+        this.agregarCantidad(this.productos)
+        this.productosBackUp = this.productos
+        this.medicamentos = this.productos.filter(prod => prod.tipo == "Medicamento")
+        this.medicamentosBackUp = this.medicamentos
+        this.juguetes = this.productos.filter(prod => prod.tipo == "Juguete")
+        this.juguetesBackUp = this.juguetes
+
+        /*fetch('https://apipetshop.herokuapp.com/api/articulos')
             .then(res => res.json())
             .then(data => {
                 this.productos = data.response
@@ -26,7 +35,7 @@ const app = Vue.createApp({
                 this.juguetes = this.productos.filter(prod => prod.tipo == "Juguete")
                 this.juguetesBackUp = this.juguetes
             })
-            .catch(err => console.log(err))
+            .catch(err => console.log(err))*/
     },
     mounted() {
         let local = JSON.parse(localStorage.getItem('cart'))
@@ -104,11 +113,11 @@ const app = Vue.createApp({
             })
         },
 
-        eliminarTodo(){
+        eliminarTodo() {
             localStorage.clear()
         },
 
-        actualizarCarrito(){
+        actualizarCarrito() {
             localStorage.setItem('cart', JSON.stringify(this.carrito))
             this.totalCompra()
         }
