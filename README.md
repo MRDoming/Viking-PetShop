@@ -1,6 +1,6 @@
-# Viking-PetShop
+# VikingCat-PetShop
 
-Viking PetShop fue un proyecto realizado en grupo de 4 personas, en 5 dás. Utilizamos HTML, CSS, Bootstrap, Vue.js
+VikingCat PetShop fue un proyecto realizado en grupo de 4 personas, en 5 dás. Utilizamos HTML, CSS, Bootstrap, Vue.js
 
 Cuenta con una pagina de inicio, con un menu para navegar entre las paginas
 
